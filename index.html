@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACAAN Stats</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img id="bostonUniversity" src="images/bostonUniversity.png" alt="Boston University">
+    <!-- Card -->
+    <div id="card">
+        <div id="mainText">ACAAN Stats</div>
+        <div id="subText">A collection of statistics from the <span class="italics">Any Card At Any Number</span> magic plot. Affiliated with Kunho Choi and Boston University.</div>
+        
+        <!-- Request -->
+        <div id="request" class="on">
+            <form id="requestForm">
+                <select id="selectCard"></select>
+                <br>
+                <select id="selectPosition"></select>
+                <br>
+                <button id="requestSubmit" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Response -->
+        <div id="response" class="off">
+            <div id="responseText"></div>
+            <div id="responsePercentage"></div>
+            <form id="responseForm">
+                <button id="responseSubmit" type="submit">Retry</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

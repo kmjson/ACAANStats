@@ -1,0 +1,15 @@
+export const Value = {
+    ace: {pip: 'A', text: 'Ace', code: '01'},
+    two: {pip: '2', text: 'Two', code: '02'},
+    three: {pip: '3', text: 'Three', code: '03'},
+    four: {pip: '4', text: 'Four', code: '04'},
+    five: {pip: '5', text: 'Five', code: '05'},
+    six: {pip: '6', text: 'Six', code: '06'},
+    seven: {pip: '7', text: 'Seven', code: '07'},
+    eight: {pip: '8', text: 'Eight', code: '08'},
+    nine: {pip: '9', text: 'Nine', code: '09'},
+    ten: {pip: '10', text: 'Ten', code: '10'},
+    jack: {pip: 'J', text: 'Jack', code: '11'},
+    queen: {pip: 'Q', text: 'Queen', code: '12'},
+    king: {pip: 'K', text: 'King', code: '13'},
+}

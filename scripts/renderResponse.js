@@ -6,9 +6,6 @@ export function renderResponse() {
     const responseText = document.getElementById('responseText');
     const responsePercentage = document.getElementById('responsePercentage');
 
-    console.log(selectedCardPosition);
-    console.log(selectedPosition);
-
     responseText.innerHTML = "The probability of the " + 
         getCard(selectedCardPosition) + 
         " and Position " +  
